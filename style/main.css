@@ -10864,7 +10864,7 @@ footer p {
 .navbar-store .card-badge {
   display: inline-block;
   min-width: 2em;
-  padding: 3em;
+  padding: 3px;
   border-radius: 50%;
   font-size: 10px;
   text-align: center;
@@ -10969,6 +10969,78 @@ footer p {
   font-size: 16px;
   line-height: 180%;
   color: #0c0d36;
+}
+
+.store-cart .table-cart {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.store-cart .table-cart th {
+  font-weight: 200;
+}
+
+.store-cart h2 {
+  font-size: 16px;
+  color: #0c0d36;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.store-cart .cart-image {
+  border-radius: 8px;
+  max-height: 85px;
+}
+
+.store-cart .product-title {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #0c0d36;
+}
+
+.store-cart .product-subtitle {
+  font-size: 14px;
+  color: #979797;
+}
+
+.store-cart .btn-remove-cart {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #fc5384;
+  border-color: transparent;
+}
+
+.store-cart .btn-remove-cart:hover {
+  color: #fff;
+  background-color: #fb2d69;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.store-cart .btn-remove-cart:focus, .store-cart .btn-remove-cart.focus {
+  color: #fff;
+  background-color: #fb2d69;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.store-cart .btn-remove-cart.disabled, .store-cart .btn-remove-cart:disabled {
+  color: #fff;
+  background-color: #fc5384;
+  border-color: transparent;
+}
+
+.store-cart .btn-remove-cart:not(:disabled):not(.disabled):active, .store-cart .btn-remove-cart:not(:disabled):not(.disabled).active,
+.show > .store-cart .btn-remove-cart.dropdown-toggle {
+  color: #fff;
+  background-color: #fb2160;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.store-cart .btn-remove-cart:not(:disabled):not(.disabled):active:focus, .store-cart .btn-remove-cart:not(:disabled):not(.disabled).active:focus,
+.show > .store-cart .btn-remove-cart.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
 .component-categories {
