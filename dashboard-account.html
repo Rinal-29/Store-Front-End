@@ -22,11 +22,11 @@
           <img src="/images/dashboard-store-logo.svg" alt="dashboar logo" class="my-4">
         </div>
         <div class="list-group list-group-flush">
-          <a href="/dashboard.html" class="list-group-item list-group-item-action active">Dashboard</a>
+          <a href="/dashboard.html" class="list-group-item list-group-item-action">Dashboard</a>
           <a href="/dashboard-products.html" class="list-group-item list-group-item-action">My Product</a>
           <a href="/dashboard-transactions.html" class="list-group-item list-group-item-action">Transactions</a>
           <a href="/dashboard-settings.html" class="list-group-item list-group-item-action">Store Setting</a>
-          <a href="/dashboard-account.html" class="list-group-item list-group-item-action">My Account</a>
+          <a href="/dashboard-account.html" class="list-group-item list-group-item-action active">My Account</a>
           <a href="/index.html" class="list-group-item list-group-item-action">Sign Out</a>
         </div>
       </div>
@@ -84,118 +84,90 @@
           <div class="container-fluid">
             <div class="dashboard-heading">
               <h2 class="dashboard-title">
-                Dashboard
+                My Account
               </h2>
               <p class="dashboard-subtitle">
-                Look what you have made today!
+                Update your current profile
               </p>
             </div>
             <div class="dashbooard-content">
               <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Costumer
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        15,209
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Revenue
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        $931,290
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Transaction
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        22,409,399
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mt-3">
-                <div class="col-12 mt-2">
-                  <h5 class="mb-3">Recent Transaction</h5>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-icon-product-1.png" alt="icon-product">
+                <div class="col-12">
+                  <form action="">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="name">Your Name</label>
+                              <input type="text" class="form-control" id="name" name="name" value="Renal">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="email">Your Email</label>
+                              <input type="email" class="form-control" id="email" name="email" value="test@gmail.com">
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-4">
-                          Shirup Marzan
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="addressOne">Address 1</label>
+                              <input type="text" class="form-control" id="addressOne" name="addressOne"
+                                value="Setra Duta Cemara">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="addressTwo">Address 2</label>
+                              <input type="text" class="form-control" id="addressTwo" name="addressTwo"
+                                value="BTP BLOK AD No.306">
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-3">
-                          Rinal Hakim
+                        <div class="row mb-3">
+                          <div class="col-md-4">
+                            <label for="province">Province</label>
+                            <select name="province" id="province" class="form-control">
+                              <option value="South Sulawesi">Sulawesi Selatan</option>
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="city">City</label>
+                            <select name="city" id="city" class="form-control">
+                              <option value="Makassar">Makassar</option>
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="postalCode">Postal Code</label>
+                            <input type="text" class="form-control" id="postalCode" name="postalCode" value="90243">
+                          </div>
                         </div>
-                        <div class="col-md-3">
-                          9 Desember 2021
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="country">Country</label>
+                              <input type="text" class="form-control" id="country" name="country" value="Indonesia">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="number" class="form-control" id="phone" name="phone" value="086126216">
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="arrow">
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-icon-product-2.png" alt="icon-product">
-                        </div>
-                        <div class="col-md-4">
-                          LeBrone X
-                        </div>
-                        <div class="col-md-3">
-                          Masyoshi
-                        </div>
-                        <div class="col-md-3">
-                          10 Desember 2021
-                        </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="arrow">
+                        <div class="row">
+                          <div class="col text-right">
+                            <button type="submit" class="btn btn-success px-5">
+                              Save Now
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-icon-product-3.png" alt="icon-product">
-                        </div>
-                        <div class="col-md-4">
-                          Soffa Lembutte
-                        </div>
-                        <div class="col-md-3">
-                          Shaynas
-                        </div>
-                        <div class="col-md-3">
-                          12 Desember 2021
-                        </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="arrow">
-                        </div>
-                      </div>
-                    </div>
-                  </a>
+                  </form>
                 </div>
               </div>
             </div>
